@@ -14,9 +14,7 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 
 1. Clone the repository:
-   git clone https://github.com/adamrgv/AdamRegevProject.git
-   cd AdamRegevProject/react_project/card4u-materialui
-
+   git clone https://github.com/lowkeyrose/Card4U.git
 2. Install the project dependencies:
     npm install
 
