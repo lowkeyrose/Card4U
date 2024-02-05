@@ -1,0 +1,75 @@
+.Cards, .SingleCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 110px;
+}
+.Cards header {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0 30px;
+}
+.Cards header h1 {
+  font-family: 'Pacifico', cursive !important;
+  margin-bottom: 0;
+  font-size: 48px;
+}
+.Cards .row {
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
+.Cards .column {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.Cards .column:hover {
+  background-color: rgba(0, 0, 0, 0.028);
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.397);
+  scale: 1.03;
+  transition: all 0.2s ease;
+}
+.Cards .darkmode:hover {
+  box-shadow: 0px 0px 10px 0.5px #ffffff;
+  scale: 1.03;
+  transition: all 0.2s ease;
+}
+.Cards p {
+  margin: 3px 6px;
+}
+.Cards svg:hover {
+  scale: 1.1;
+}
+.Cards .trash-icon:hover path {
+  color: darkgray;
+}
+.Cards .edit-icon:hover path {
+  color: rgb(177, 173, 230);
+}
+.Cards .phone-icon:hover path {
+  color: green;
+}
+.Cards .heart-icon:hover path {
+  color: red;
+}
+.Cards .addCard {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background-color: #092a4a;
+  border-radius: 50%;
+  border: none;
+}
+.Cards .addCard a {
+  color: white;
+  padding: 21px;
+  font-size: 30px;
+  text-decoration: none;
+}
